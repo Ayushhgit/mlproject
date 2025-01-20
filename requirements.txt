@@ -6,4 +6,5 @@ ipykernal
 catboost
 xgboost
 dill
+flask
 #-e .
