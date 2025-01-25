@@ -167,3 +167,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore the contact form data JSON
+data/contact_form_data.json

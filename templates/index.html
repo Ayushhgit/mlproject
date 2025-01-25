@@ -1,1 +1,187 @@
-<h1>Welcome to my Home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Prediction</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background */
+            color: #e0e0e0; /* Light text color */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid #444;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 3rem 2rem;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            padding: 2rem;
+            width: 320px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .card h2 {
+            color: #f1f1f1;
+            margin-bottom: 1rem;
+            font-size: 1.9rem;
+        }
+
+        .card p {
+            color: #b3b3b3;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card ul li {
+            color: #d6d6d6;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .btn {
+            background-color: #6200ea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #3700b3;
+            transform: scale(1.05);
+        }
+
+        .card-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #bbb;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .card {
+                width: 90%;
+                padding: 1.5rem;
+            }
+
+            .card h2 {
+                font-size: 1.5rem;
+            }
+
+            .card-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my ML project</h1>
+        <p>Explore insights and predictions powered by Machine Learning.</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>About the Project</h2>
+            <p>This Project Predicts the student's performance in exams based on inputs</p>
+            <div class="card-buttons">
+                <a href="about.html" class="btn">Learn More</a>
+                <a href="home.html" class="btn" style="background-color: #4a1a72;">Go to Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Features</h2>
+            <ul>
+                <li>Data Visualization</li>
+                <li>Prediction Models</li>
+                <li>User-Friendly Interface</li>
+            </ul>
+           
+            <a href="features.html" class="btn">Explore Features</a>
+            
+        </div>
+
+        <div class="card">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Reach out to us for more information or support.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ML Project. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
